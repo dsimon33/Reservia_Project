@@ -90,8 +90,12 @@ h1
 
 .searchico
 {
+    display:flex;
+    flex-direction: column;
     width: 50px;
+    height: 50px;
     text-align: center;
+    justify-content: center;
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
 }
@@ -99,7 +103,6 @@ h1
 .searchzonemarker
 {
     font-size: 140%;
-    padding-top: 15px;
 }
 
 .searchzonetxt
@@ -125,6 +128,62 @@ h1
 .searchdesktop
 {
     display: none
+}
+
+/* Zone de filtres */
+
+.searchfilters
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.searchfilterstitle
+{
+    font-size: 120%;
+    font-weight: 800;
+    width: 100%;     
+}
+
+.searchfilterschoice
+{
+    display: flex;
+    height: 50px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    margin-right: 8px;
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+}
+
+.searchfiltersfamily
+{
+    display: flex;
+    flex-direction: column;
+    background-color:#DEEBFF;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.searchfiltersfamilyico
+{
+    font-size: 150%;
+    color: #0065FC;
+}
+
+.searchfiltersfamilytitle
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 800;
 }
 
 
@@ -161,6 +220,17 @@ h1
         font-size: 100%;
         left: 250px;
         border-radius: 0px 15px 15px 0px;
+    }
+
+    /* Zone de filtres */
+    .searchfilters
+    {
+        margin-top: 20px;
+    }
+
+    .searchfilterschoice
+    {
+        margin-right: 20px;
     }
 
 }
@@ -211,6 +281,12 @@ h1
         border-top: 3px solid #0065FC;
     }
 
+    /* Zone de filtres */
+    .searchfilterstitle
+    {
+        padding-right: 20px;
+        width: auto;     
+    }
 }
 
 
