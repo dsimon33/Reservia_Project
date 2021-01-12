@@ -1,0 +1,221 @@
+/* Définition des polices personnalisées */
+
+@font-face {
+    font-family: 'raleway';
+    src: url('raleway-variablefont_wght-webfont.eot');
+    src: url('raleway-variablefont_wght-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('raleway-variablefont_wght-webfont.woff') format('woff'),
+         url('raleway-variablefont_wght-webfont.ttf') format('truetype'),
+         url('raleway-variablefont_wght-webfont.svg#ralewaythin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Définition des styles principaux de la page */
+
+#container
+{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+body
+{
+    font-family: raleway, Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* entête */
+
+
+.headerimg
+{
+    width: 100px;
+}
+
+.signup
+{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    font-weight:800;
+    color: #0065FC;
+    text-decoration:none;
+}
+
+/* Navigation*/
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.headernav
+{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 15px;
+    width: 50%;
+    border-bottom: 3px solid #F2F2F2;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #0065FC;
+}
+
+/* Zone de recherche*/
+
+h1
+{
+    font-size: 140%;
+    font-weight: 800;
+}
+
+#searchzone
+{
+    display:flex;
+    height: 50px;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+
+.searchico
+{
+    width: 50px;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.searchzonemarker
+{
+    font-size: 140%;
+    padding-top: 15px;
+}
+
+.searchzonetxt
+{
+    font-size: 15px;
+    padding-left: 10px;
+    border:none;
+}
+
+.searchmobile
+{
+    position: absolute;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 120%;
+    background-color: #0065FC;
+    border:none;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.searchdesktop
+{
+    display: none
+}
+
+
+@media all and (min-width:768px)
+{
+    /* Navigation */
+    #searchzone
+    {
+        width: 350px;
+        border-radius: 0px 25px 25px 0px;
+    }
+
+    .searchico
+    {
+        width: 50px;
+        text-align: center;
+        background-color: #F2F2F2;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .searchdesktopico
+    {
+        display: none;
+    }
+    
+    .searchdesktop
+    {
+        display: inline;
+    }
+
+    .searchmobile
+    {
+        width: 150px;
+        font-size: 100%;
+        left: 250px;
+        border-radius: 0px 15px 15px 0px;
+    }
+
+}
+
+@media all and (min-width:992px)
+{
+    #container
+    {
+    margin-top: 50px;
+    }
+
+    /* entête */
+
+    .signup
+    {
+        right: 20px;
+        padding-left: 20px;
+    }
+
+    header
+    {
+        display: flex;
+    }
+
+    /* Navigation */
+
+    nav
+    {
+        position: absolute;
+        right: 120px;
+        top: 0px;
+    }
+
+    .headernav
+    {
+        border-bottom: none;
+        padding-bottom: 0;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    nav a:hover
+    {
+        padding-top: 30px;
+        padding-bottom: none;
+        border-bottom: none;
+        border-top: 3px solid #0065FC;
+    }
+
+}
+
+
+
+
+
+
+
