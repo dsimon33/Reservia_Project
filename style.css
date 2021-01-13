@@ -186,6 +186,44 @@ h1
     font-weight: 800;
 }
 
+.searchfilterschoice:hover
+{
+    border: 5px ridge #0065FC;
+    box-shadow: 6px -6px 2px #DEEBFF;
+}
+
+/* info */
+
+.info
+{
+    display: flex;
+}
+
+.infoicone
+{
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #F2F2F2;
+}
+
+.infoicone
+{
+    color: #0065FC;
+    font-size: 80%;
+}
+
+.infotext
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10PX;
+    padding-top: 3px;
+}
 
 @media all and (min-width:768px)
 {

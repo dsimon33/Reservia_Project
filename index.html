@@ -10,6 +10,7 @@
     </head>
     <body>
         <div id="container">
+            <!--HEADER START-->
             <header>
                 <img class="headerimg" src="images/logo/Reservia.svg" alt="Reservia">
                 <nav>
@@ -18,47 +19,59 @@
                 </nav>
                 <a class="signup" href="#">S'inscrire</a>
             </header>
+            <!--HEADER END-->
             <section>
-                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p>En plein centre ville ou en pleine nature</p>
-                    <form method="post" action="traitement.php">
-                        <div id="searchzone">
-                            <label class="searchico" for="search"><i class="fas fa-map-marker-alt searchzonemarker"></i></label>
-                            <input class="searchzonetxt" type="search" name="search" id="search" placeholder="Marseille,France">
-                            <button class="searchmobile">
-                                <span class="searchdesktop">Rechercher</span>
-                                <i class="fas fa-search searchdesktopico"></i>
-                            </button>
-                        </div>
-                    </form>
-                    <div class=searchfilters>
-                        <h2 class= searchfilterstitle>Filtres</h2>
-                        <div class= searchfilterschoice>
-                            <div class= searchfiltersfamily>
-                                <i class="fas fa-money-bill-wave searchfiltersfamilyico"></i>
-                            </div>
-                            <span class= searchfiltersfamilytitle>Économique</span>
-                        </div>
-                        <div class= searchfilterschoice>
-                            <div class= searchfiltersfamily>
-                                <i class="fas fa-child searchfiltersfamilyico"></i>
-                            </div>
-                            <span class= searchfiltersfamilytitle>Familial</span>
-                        </div>
-                        <div class= searchfilterschoice>
-                            <div class= searchfiltersfamily>
-                                <i class="fas fa-heart searchfiltersfamilyico"></i>
-                            </div>
-                            <span class= searchfiltersfamilytitle>Romantique</span>
-                        </div>
-                        <div class= searchfilterschoice>
-                            <div class= searchfiltersfamily>
-                                <i class="fas fa-dog searchfiltersfamilyico"></i>
-                            </div>
-                            <span class= searchfiltersfamilytitle>Animaux autorisés</span>
-                        </div>                                
+            <!--SEARCH START-->    
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+                <form method="post" action="traitement.php">
+                    <div id="searchzone">
+                        <label class="searchico" for="search"><i class="fas fa-map-marker-alt searchzonemarker"></i></label>
+                        <input class="searchzonetxt" type="search" name="search" id="search" placeholder="Marseille,France">
+                        <button class="searchmobile">
+                            <span class="searchdesktop">Rechercher</span>
+                            <i class="fas fa-search searchdesktopico"></i>
+                        </button>
                     </div>
+                </form>
+            <!--SEARCH END-->
+            <!--FILTERS START-->        
+                <div class=searchfilters>
+                    <h2 class= searchfilterstitle>Filtres</h2>
+                    <div class= searchfilterschoice>
+                        <div class= searchfiltersfamily>
+                            <i class="fas fa-money-bill-wave searchfiltersfamilyico"></i>
+                        </div>
+                        <span class= searchfiltersfamilytitle>Économique</span>
+                    </div>
+                    <div class= searchfilterschoice>
+                        <div class= searchfiltersfamily>
+                            <i class="fas fa-child searchfiltersfamilyico"></i>
+                        </div>
+                        <span class= searchfiltersfamilytitle>Familial</span>
+                    </div>
+                    <div class= searchfilterschoice>
+                        <div class= searchfiltersfamily>
+                            <i class="fas fa-heart searchfiltersfamilyico"></i>
+                        </div>
+                        <span class= searchfiltersfamilytitle>Romantique</span>
+                    </div>
+                    <div class= searchfilterschoice>
+                        <div class= searchfiltersfamily>
+                            <i class="fas fa-dog searchfiltersfamilyico"></i>
+                        </div>
+                        <span class= searchfiltersfamilytitle>Animaux autorisés</span>
+                    </div>                                
+                </div>
+            <!--FILTER END-->
+                <div class="info">
+                    <div class= infoicone>
+                        <i class="fas fa-info infoico"></i>
+                    </div>
+                    <span class="infotext">Plus de 500 logements sont disponibles dans cette ville</span>
+                </div>
             </section>
+
         </div>
         
     </body>
