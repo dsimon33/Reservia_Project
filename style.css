@@ -72,7 +72,7 @@ nav a:hover
 
 /* Zone de recherche*/
 
-h1
+h1,h2
 {
     font-size: 140%;
     font-weight: 800;
@@ -223,6 +223,119 @@ h1
     flex-direction: column;
     margin-left: 10PX;
     padding-top: 3px;
+}
+
+/* Les plus populaires */
+
+#mostpopular
+{
+    background-color: #F2F2F2;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+
+.populartitle
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#popularvisual1
+{
+    margin-top: 10;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left -25px bottom 0px;
+    position: relative;
+    background-color: white;
+    margin-bottom: 15px;
+    background-color: white;
+    border: solid 5px white;
+}
+
+#popularvisual2
+{
+    margin-top: 10;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left -25px bottom 0px;
+    position: relative;
+    background-color: white;
+    margin-bottom: 15px;
+    background-color: white;
+    border: solid 5px white;
+}
+
+#popularvisual3
+{
+    margin-top: 10;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background-image: url('images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom 0px;
+    position: relative;
+    background-color: white;
+    margin-bottom: 15px;
+    background-color: white;
+    border: solid 5px white;
+}
+
+.popularvisualdescription
+{
+    
+    position:absolute;
+    left: 32%;
+    width: auto;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.popularprice
+{
+    margin-top: 5px;
+    margin-bottom: 18px;
+    font-size: 15px;
+}
+
+.populardescription
+{
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.popularvisualdescription i
+{
+    font-size: 8px;
+}
+
+.staron
+{
+    color: #0065FC;
+}
+
+.staroff
+{
+    color: #F2F2F2;
 }
 
 @media all and (min-width:768px)
