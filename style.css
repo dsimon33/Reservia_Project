@@ -93,12 +93,13 @@ h1,h2
 {
     display:flex;
     flex-direction: column;
-    width: 50px;
-    height: 50px;
+    width: 54px;
+    height: 54px;
     text-align: center;
     justify-content: center;
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
+    margin-top: -2px;
 }
 
 .searchzonemarker
@@ -117,11 +118,12 @@ h1,h2
 {
     position: absolute;
     right: 10px;
-    width: 50px;
-    height: 50px;
+    width: 54px;
+    height: 54px;
     color: white;
     font-size: 120%;
     background-color: #0065FC;
+    margin-top: -2px;
     border:none;
     border-radius: 15px 15px 15px 15px;
 }
@@ -152,7 +154,6 @@ h1,h2
 {
     display: flex;
     height: 50px;
-    padding-right: 10px;
     margin-bottom: 15px;
     margin-right: 8px;
     border: 3px solid #F2F2F2;
@@ -164,17 +165,20 @@ h1,h2
     display: flex;
     flex-direction: column;
     background-color:#DEEBFF;
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
     justify-content: center;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 28px;
+    margin-top: -3px;
+    margin-left: -3px
 }
 
 .searchfiltersfamilyico
 {
     font-size: 150%;
     color: #0065FC;
+    
 }
 
 .searchfiltersfamilytitle
@@ -648,6 +652,7 @@ footer
 
     .signup
     {
+        top:67px;
         right: 20px;
         padding-left: 20px;
     }
@@ -681,14 +686,15 @@ footer
     {
         border-bottom: none;
         padding-bottom: 0;
-        padding-top: 30px;
+        padding-top: 60px;
         padding-left: 20px;
         padding-right: 20px;
+        margin-top:-12px
     }
 
     nav a:hover
     {
-        padding-top: 30px;
+        padding-top: 60px;
         padding-bottom: 0px;
         border-bottom: none;
         border-top: 3px solid #0065FC;
@@ -856,7 +862,7 @@ footer
     footer
     {
         background-color: #F2F2F2;
-        max-width: 1599px;
+        width: auto;
     }
 }
 
