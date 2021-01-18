@@ -228,6 +228,14 @@ h1,h2
     padding-top: 3px;
 }
 
+/* Mise en forme des liens sur chaque carte d'hébergement ou d'actvivté */
+
+#accommodationlists a, #accommodation a, #activitylisting a
+{
+    text-decoration: none;
+    color: black;
+}
+
 
 /* Les plus populaires */
 
@@ -246,6 +254,7 @@ h1,h2
     flex-wrap: wrap;
     justify-content: center;
 }
+
 
 .populartitle
 {
