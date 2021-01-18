@@ -566,6 +566,7 @@ h1,h2
         width: auto;
         max-width: 991px;
         background-color:#F2F2F2;
+        border-radius: 20px;
     }
 }
 
@@ -777,7 +778,6 @@ h1,h2
    .activitylist
    {
        max-width: 280px;
-
    }
 }
 
