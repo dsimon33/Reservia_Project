@@ -766,7 +766,17 @@ footer
 
     .accommodationdescription
     {
-        margin: 3px 0px 0px 12px;
+        margin: 3px 0px 0px 5px;
+    }
+
+    .accommodationprice
+    {
+        margin-left: 5px;
+    }
+
+    .accommodationico
+    {
+        margin-left: 5px;
     }
 
     #localized_accommodation
@@ -812,9 +822,14 @@ footer
         height: 140px;
     }
 
+    .act3img
+    {
+        height:130px
+    }
+
     .act6img
     {
-        height: 160px;
+        height: 170px;
     }
  
     .activity_column
@@ -894,6 +909,21 @@ footer
     .accommodationlist
     {
         width: 245px;
+    }
+
+    .accommodationdescription
+    {
+        margin: 3px 0px 0px 15px;
+    }
+
+    .accommodationprice
+    {
+        margin-left: 15px;
+    }
+
+    .accommodationico
+    {
+        margin-left: 15px;
     }
 
 
