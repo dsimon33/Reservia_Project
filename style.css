@@ -401,7 +401,6 @@ h1,h2
     padding-bottom: 10px;
     margin-top: 20px;
     max-width: 767px;
-    background-color:#F2F2F2;
 }
 
 .activitytitle
@@ -458,6 +457,38 @@ h1,h2
 .activity_column_group
 {
     display: none;
+}
+
+
+/* Footer */
+
+footer
+{
+    background-color: #F2F2F2;
+    padding:10px;
+
+}
+
+.footertitle
+{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.footernav
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+
+.footercolumncontainer
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 5px;
 }
 
 
@@ -568,6 +599,31 @@ h1,h2
         background-color:#F2F2F2;
         border-radius: 20px;
     }
+
+    /* Footer */
+
+    .footercolumn
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footercolumncontainer
+    {
+        padding-left: 0px;
+        width: 200px;
+        border: 5px solid #F2F2F2;
+        box-shadow: 5px 5px 15px 5px #F2F2F2;
+        border-radius: 20px;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    footer
+    {
+        background-color: white;
+        padding: 20px;
+    }
 }
 
 
@@ -578,7 +634,7 @@ h1,h2
         margin-top: 50px;
     }
 
-
+    
     /* entête */
 
     .signup
@@ -590,6 +646,16 @@ h1,h2
     header
     {
         display: flex;
+        max-width: 1199px;
+        padding: 0px 20px 20px 20px;
+    }
+
+     /* Section corps */
+ 
+     #body
+    {
+        max-width: 1199px;
+        padding: 20px; 
     }
 
 
@@ -679,7 +745,7 @@ h1,h2
 
     .accommodationlist
     {
-        width: 200px;
+        width: 185px;
         margin: 10px;
     }
 
@@ -696,11 +762,22 @@ h1,h2
 
     /* Activités localisés */
     
+    #activity
+    {
+        max-width: 1199px;
+        margin: 20px;
+    }
+
     #localized_activity
     {
-        max-width: 1270px;
         height: auto;
         background-color:white;
+        max-width: 1199px;
+    }
+
+    .activitytitle
+    {
+        padding-left: 0px;
     }
 
     #activitylisting
@@ -739,7 +816,7 @@ h1,h2
     {
         display:flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content:stretch
     }
 
     .activitylist
@@ -750,34 +827,77 @@ h1,h2
         margin-left: 0px;
         margin-right: 0px;
     }
+
+    /* Footer */
+
+    .footercolumn
+    {
+        justify-content:left;
+        flex: auto;
+        padding-left: 0px;
+    }
+ 
+    .footercolumncontainer
+    {
+        width: 550px;
+        padding-left: 0px;
+        margin-left: 0px;   
+    }
+ 
+    footer
+    {
+        background-color: #F2F2F2;
+        max-width: 1599px;
+    }
 }
 
 @media all and (min-width:1200px)
 {
-  
+    /* Header */
+    
+    #header
+    {
+        max-width: 1599px;
+        padding-left: 30px;
+    }
+    
+    /* Section corps */
+
+    #body
+    {
+       max-width: 1599px; 
+       padding: 30px;
+    }
+
     /* Hébergements localisés */
  
     #accommodationlists
     {
-        max-width: 1200px;
+        max-width: 1599px;
     }
 
     .accommodationlist
     {
-        width: 250px;
+        width: 245px;
     }
 
 
    /* Activités localisés */
+
+   #activity
+   {
+       max-width: 1599px;
+       padding: 30px;
+   }
    
    #localized_activity
     {
-        max-width: 1200px;
+        max-width: 1599px;
     }
 
    .activitylist
    {
-       max-width: 280px;
+       max-width: 270px;
    }
 }
 
