@@ -245,7 +245,7 @@ h1,h2
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
@@ -383,7 +383,6 @@ h1,h2
 
 .plus
 {
-    font-size: 15px;
     font-weight: 800;
     margin-left: 20px;
 }
@@ -556,12 +555,6 @@ footer
 
     /* Les plus populaires */
 
-    #popularlist
-    {
-        display: flex;
-        justify-content: space-around;
-    }
-
     .popularvisual
     {
         flex-direction: column;
@@ -620,7 +613,7 @@ footer
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 925px;
     }
 
@@ -737,9 +730,7 @@ footer
 
     #popularlist
     {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
     }
  
     .popularvisual
@@ -838,7 +829,7 @@ footer
 
     .act1img, .act4img
     {
-        height: 390px;
+        height: 400px;
     }
 
     .act5img
@@ -872,7 +863,6 @@ footer
     {
         height: auto;
         max-width: 230px;
-        width: auto;
         margin-left: 0px;
         margin-right: 0px;
     }
