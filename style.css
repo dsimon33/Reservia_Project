@@ -336,7 +336,7 @@ h1,h2
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .accommodationlist
@@ -484,7 +484,6 @@ footer
 {
     text-decoration: none;
     color: black;
-    font-size: 15px;
     padding-bottom: 7px;
 }
 
@@ -518,7 +517,6 @@ footer
     .searchico
     {
         width: 50px;
-        background-color: #F2F2F2;
         border-radius: 0px 0px 0px 0px;
     }
 
@@ -590,13 +588,6 @@ footer
         background-color:white;
     }
 
-    #accommodation
-    {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
     /* Activités localisés */
 
     #localized_activity
@@ -609,10 +600,8 @@ footer
 
     #activitylisting
     {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-around;
     max-width: 925px;
     }
@@ -627,8 +616,6 @@ footer
         height: 310px;
     }
 
-
-
     /* Footer */
 
     .footercolumn
@@ -639,7 +626,6 @@ footer
 
     .footercolumncontainer
     {
-        padding-left: 0px;
         width: 200px;
         border: 5px solid #F2F2F2;
         box-shadow: 5px 5px 15px 5px #F2F2F2;
@@ -760,7 +746,6 @@ footer
  
     #localized_accommodation
     {
-        width: auto;
         background-color: #F2F2F2;
     }
  
@@ -821,8 +806,6 @@ footer
 
     #activitylisting
     {
-        display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
         max-width: 1199px;
     } 
@@ -854,8 +837,6 @@ footer
 
     .activity_column_group
     {
-        display:flex;
-        flex-direction: column;
         justify-content: space-between;
     }
 
@@ -872,14 +853,12 @@ footer
     .footercolumn
     {
         justify-content:left;
-        flex: auto;
         padding-left: 0px;
     }
  
     .footercolumncontainer
     {
         width: 550px;
-        padding-left: 0px;
         margin-left: 0px;   
     }
  
@@ -972,7 +951,6 @@ footer
    #activity
    {
        padding:30px 0px 30px 100px;
-       margin:0px;
    }
 
 }
